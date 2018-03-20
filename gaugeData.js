@@ -171,27 +171,27 @@ const gaugeData = [
     },
     {
         "countryCode": "DO",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Dominican Republic"
     },
     {
         "countryCode": "DZ",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Algeria"
     },
     {
         "countryCode": "EC",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "Ecuador"
     },
     {
         "countryCode": "EE",
-        "gauge": 0,
+        "gauge": 1520,
         "name": "Estonia"
     },
     {
         "countryCode": "EG",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Egypt"
     },
     {
@@ -201,22 +201,22 @@ const gaugeData = [
     },
     {
         "countryCode": "ER",
-        "gauge": 0,
+        "gauge": 950,
         "name": "Eritrea"
     },
     {
         "countryCode": "ES",
-        "gauge": 0,
+        "gauge": 1668,
         "name": "Spain"
     },
     {
         "countryCode": "ET",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Ethiopia"
     },
     {
         "countryCode": "FI",
-        "gauge": 0,
+        "gauge": 1524,
         "name": "Finland"
     },
     {
@@ -241,27 +241,27 @@ const gaugeData = [
     },
     {
         "countryCode": "FR",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "France"
     },
     {
         "countryCode": "GA",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Gabon"
     },
     {
         "countryCode": "GB",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "United Kingdom"
     },
     {
         "countryCode": "GD",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Grenada"
     },
     {
         "countryCode": "GE",
-        "gauge": 0,
+        "gauge": 1520,
         "name": "Georgia"
     },
     {
@@ -276,7 +276,7 @@ const gaugeData = [
     },
     {
         "countryCode": "GH",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "Ghana"
     },
     {
