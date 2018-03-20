@@ -1,0 +1,1122 @@
+const gaugeData = [
+    {
+        "countryCode": "AF",
+        "gauge": 1520,
+        "name": "Afghanistan"
+    },
+    {
+        "countryCode": "AL",
+        "gauge": 1435,
+        "name": "Albania"
+    },
+    {
+        "countryCode": "AM",
+        "gauge": 1520,
+        "name": "Armenia"
+    },
+    {
+        "countryCode": "AO",
+        "gauge": 1067,
+        "name": "Angola"
+    },
+    {
+        "countryCode": "AR",
+        "gauge": 1435,
+        "name": "Argentina"
+    },
+    {
+        "countryCode": "AT",
+        "gauge": 1435,
+        "name": "Austria"
+    },
+    {
+        "countryCode": "AU",
+        "gauge": 1435,
+        "name": "Australia"
+    },
+    {
+        "countryCode": "AZ",
+        "gauge": 1520,
+        "name": "Azerbaijan"
+    },
+    {
+        "countryCode": "BA",
+        "gauge": 760,
+        "name": "Bosnia and Herzegovina"
+    },
+    {
+        "countryCode": "BD",
+        "gauge": 1676,
+        "name": "Bangladesh"
+    },
+    {
+        "countryCode": "BE",
+        "gauge": 1435,
+        "name": "Belgium"
+    },
+    {
+        "countryCode": "BF",
+        "gauge": 1000,
+        "name": "Burkina Faso"
+    },
+    {
+        "countryCode": "BG",
+        "gauge": 1435,
+        "name": "Bulgaria"
+    },
+    {
+        "countryCode": "BJ",
+        "gauge": 1000,
+        "name": "Benin"
+    },
+    {
+        "countryCode": "BO",
+        "gauge": 1000,
+        "name": "Bolivia"
+    },
+    {
+        "countryCode": "BR",
+        "gauge": 1000,
+        "name": "Brazil"
+    },
+    {
+        "countryCode": "BW",
+        "gauge": 1067,
+        "name": "Botswana"
+    },
+    {
+        "countryCode": "BY",
+        "gauge": 1520,
+        "name": "Belarus"
+    },
+    {
+        "countryCode": "CA",
+        "gauge": 1435,
+        "name": "Canada"
+    },
+    {
+        "countryCode": "CD",
+        "gauge": 1067,
+        "name": "Democratic Republic of the Congo"
+    },
+    {
+        "countryCode": "CG",
+        "gauge": 1067,
+        "name": "Republic of the Congo"
+    },
+    {
+        "countryCode": "CH",
+        "gauge": 1435,
+        "name": "Switzerland"
+    },
+    {
+        "countryCode": "CI",
+        "gauge": 1000,
+        "name": "Ivory Coast"
+    },
+    {
+        "countryCode": "CL",
+        "gauge": 1676,
+        "name": "Chile"
+    },
+    {
+        "countryCode": "CM",
+        "gauge": 1435,
+        "name": "Cameroon"
+    },
+    {
+        "countryCode": "CN",
+        "gauge": 1435,
+        "name": "China"
+    },
+    {
+        "countryCode": "CO",
+        "gauge": 1435,
+        "name": "Colombia"
+    },
+    {
+        "countryCode": "CR",
+        "gauge": 1067,
+        "name": "Costa Rica"
+    },
+    {
+        "countryCode": "CU",
+        "gauge": 1435,
+        "name": "Cuba"
+    },
+    {
+        "countryCode": "CZ",
+        "gauge": 1435,
+        "name": "Czech Republic"
+    },
+    {
+        "countryCode": "DE",
+        "gauge": 1435,
+        "name": "Germany"
+    },
+    {
+        "countryCode": "DJ",
+        "gauge": 1000,
+        "name": "Djibouti"
+    },
+    {
+        "countryCode": "DK",
+        "gauge": 1435,
+        "name": "Denmark"
+    },
+    {
+        "countryCode": "DM",
+        "gauge": 0,
+        "name": "Dominica"
+    },
+    {
+        "countryCode": "DO",
+        "gauge": 0,
+        "name": "Dominican Republic"
+    },
+    {
+        "countryCode": "DZ",
+        "gauge": 0,
+        "name": "Algeria"
+    },
+    {
+        "countryCode": "EC",
+        "gauge": 0,
+        "name": "Ecuador"
+    },
+    {
+        "countryCode": "EE",
+        "gauge": 0,
+        "name": "Estonia"
+    },
+    {
+        "countryCode": "EG",
+        "gauge": 0,
+        "name": "Egypt"
+    },
+    {
+        "countryCode": "EH",
+        "gauge": 0,
+        "name": "Western Sahara"
+    },
+    {
+        "countryCode": "ER",
+        "gauge": 0,
+        "name": "Eritrea"
+    },
+    {
+        "countryCode": "ES",
+        "gauge": 0,
+        "name": "Spain"
+    },
+    {
+        "countryCode": "ET",
+        "gauge": 0,
+        "name": "Ethiopia"
+    },
+    {
+        "countryCode": "FI",
+        "gauge": 0,
+        "name": "Finland"
+    },
+    {
+        "countryCode": "FJ",
+        "gauge": 0,
+        "name": "Fiji"
+    },
+    {
+        "countryCode": "FK",
+        "gauge": 0,
+        "name": "Falkland Islands"
+    },
+    {
+        "countryCode": "FM",
+        "gauge": 0,
+        "name": "Micronesia"
+    },
+    {
+        "countryCode": "FO",
+        "gauge": 0,
+        "name": "Faroe Islands"
+    },
+    {
+        "countryCode": "FR",
+        "gauge": 0,
+        "name": "France"
+    },
+    {
+        "countryCode": "GA",
+        "gauge": 0,
+        "name": "Gabon"
+    },
+    {
+        "countryCode": "GB",
+        "gauge": 0,
+        "name": "United Kingdom"
+    },
+    {
+        "countryCode": "GD",
+        "gauge": 0,
+        "name": "Grenada"
+    },
+    {
+        "countryCode": "GE",
+        "gauge": 0,
+        "name": "Georgia"
+    },
+    {
+        "countryCode": "GF",
+        "gauge": 0,
+        "name": "French Guiana"
+    },
+    {
+        "countryCode": "GG",
+        "gauge": 0,
+        "name": "Guernsey"
+    },
+    {
+        "countryCode": "GH",
+        "gauge": 0,
+        "name": "Ghana"
+    },
+    {
+        "countryCode": "GI",
+        "gauge": 0,
+        "name": "Gibraltar"
+    },
+    {
+        "countryCode": "GL",
+        "gauge": 0,
+        "name": "Greenland"
+    },
+    {
+        "countryCode": "GM",
+        "gauge": 0,
+        "name": "Gambia"
+    },
+    {
+        "countryCode": "GN",
+        "gauge": 0,
+        "name": "Guinea"
+    },
+    {
+        "countryCode": "GP",
+        "gauge": 0,
+        "name": "Guadeloupe"
+    },
+    {
+        "countryCode": "GQ",
+        "gauge": 0,
+        "name": "Equatorial Guinea"
+    },
+    {
+        "countryCode": "GR",
+        "gauge": 0,
+        "name": "Greece"
+    },
+    {
+        "countryCode": "GS",
+        "gauge": 0,
+        "name": "South Georgia and the South Sandwich Islands"
+    },
+    {
+        "countryCode": "GT",
+        "gauge": 0,
+        "name": "Guatemala"
+    },
+    {
+        "countryCode": "GU",
+        "gauge": 0,
+        "name": "Guam"
+    },
+    {
+        "countryCode": "GW",
+        "gauge": 0,
+        "name": "Guinea-Bissau"
+    },
+    {
+        "countryCode": "GY",
+        "gauge": 0,
+        "name": "Guyana"
+    },
+    {
+        "countryCode": "HK",
+        "gauge": 0,
+        "name": "Hong Kong"
+    },
+    {
+        "countryCode": "HM",
+        "gauge": 0,
+        "name": "Heard Island and McDonald Islands"
+    },
+    {
+        "countryCode": "HN",
+        "gauge": 0,
+        "name": "Honduras"
+    },
+    {
+        "countryCode": "HR",
+        "gauge": 0,
+        "name": "Croatia"
+    },
+    {
+        "countryCode": "HT",
+        "gauge": 0,
+        "name": "Haiti"
+    },
+    {
+        "countryCode": "HU",
+        "gauge": 0,
+        "name": "Hungary"
+    },
+    {
+        "countryCode": "ID",
+        "gauge": 0,
+        "name": "Indonesia"
+    },
+    {
+        "countryCode": "IE",
+        "gauge": 0,
+        "name": "Ireland"
+    },
+    {
+        "countryCode": "IL",
+        "gauge": 0,
+        "name": "Israel"
+    },
+    {
+        "countryCode": "IM",
+        "gauge": 0,
+        "name": "Isle of Man"
+    },
+    {
+        "countryCode": "IN",
+        "gauge": 0,
+        "name": "India"
+    },
+    {
+        "countryCode": "IO",
+        "gauge": 0,
+        "name": "British Indian Ocean Territory"
+    },
+    {
+        "countryCode": "IQ",
+        "gauge": 0,
+        "name": "Iraq"
+    },
+    {
+        "countryCode": "IR",
+        "gauge": 0,
+        "name": "Iran"
+    },
+    {
+        "countryCode": "IS",
+        "gauge": 0,
+        "name": "Iceland"
+    },
+    {
+        "countryCode": "IT",
+        "gauge": 0,
+        "name": "Italy"
+    },
+    {
+        "countryCode": "JE",
+        "gauge": 0,
+        "name": "Jersey"
+    },
+    {
+        "countryCode": "JM",
+        "gauge": 0,
+        "name": "Jamaica"
+    },
+    {
+        "countryCode": "JO",
+        "gauge": 0,
+        "name": "Jordan"
+    },
+    {
+        "countryCode": "JP",
+        "gauge": 0,
+        "name": "Japan"
+    },
+    {
+        "countryCode": "KE",
+        "gauge": 0,
+        "name": "Kenya"
+    },
+    {
+        "countryCode": "KG",
+        "gauge": 0,
+        "name": "Kyrgyzstan"
+    },
+    {
+        "countryCode": "KH",
+        "gauge": 0,
+        "name": "Cambodia"
+    },
+    {
+        "countryCode": "KI",
+        "gauge": 0,
+        "name": "Kiribati"
+    },
+    {
+        "countryCode": "KM",
+        "gauge": 0,
+        "name": "Comoros"
+    },
+    {
+        "countryCode": "KN",
+        "gauge": 0,
+        "name": "Saint Kitts and Nevis"
+    },
+    {
+        "countryCode": "KP",
+        "gauge": 0,
+        "name": "North Korea"
+    },
+    {
+        "countryCode": "KR",
+        "gauge": 0,
+        "name": "South Korea"
+    },
+    {
+        "countryCode": "KW",
+        "gauge": 0,
+        "name": "Kuwait"
+    },
+    {
+        "countryCode": "KY",
+        "gauge": 0,
+        "name": "Cayman Islands"
+    },
+    {
+        "countryCode": "KZ",
+        "gauge": 0,
+        "name": "Kazakhstan"
+    },
+    {
+        "countryCode": "LA",
+        "gauge": 0,
+        "name": "Laos"
+    },
+    {
+        "countryCode": "LB",
+        "gauge": 0,
+        "name": "Lebanon"
+    },
+    {
+        "countryCode": "LC",
+        "gauge": 0,
+        "name": "Saint Lucia"
+    },
+    {
+        "countryCode": "LI",
+        "gauge": 0,
+        "name": "Liechtenstein"
+    },
+    {
+        "countryCode": "LK",
+        "gauge": 0,
+        "name": "Sri Lanka"
+    },
+    {
+        "countryCode": "LR",
+        "gauge": 0,
+        "name": "Liberia"
+    },
+    {
+        "countryCode": "LS",
+        "gauge": 0,
+        "name": "Lesotho"
+    },
+    {
+        "countryCode": "LT",
+        "gauge": 0,
+        "name": "Lithuania"
+    },
+    {
+        "countryCode": "LU",
+        "gauge": 0,
+        "name": "Luxembourg"
+    },
+    {
+        "countryCode": "LV",
+        "gauge": 0,
+        "name": "Latvia"
+    },
+    {
+        "countryCode": "LY",
+        "gauge": 0,
+        "name": "Libya"
+    },
+    {
+        "countryCode": "MA",
+        "gauge": 0,
+        "name": "Morocco"
+    },
+    {
+        "countryCode": "MC",
+        "gauge": 0,
+        "name": "Monaco"
+    },
+    {
+        "countryCode": "MD",
+        "gauge": 0,
+        "name": "Moldova"
+    },
+    {
+        "countryCode": "ME",
+        "gauge": 0,
+        "name": "Montenegro"
+    },
+    {
+        "countryCode": "MF",
+        "gauge": 0,
+        "name": "Saint Martin"
+    },
+    {
+        "countryCode": "MG",
+        "gauge": 0,
+        "name": "Madagascar"
+    },
+    {
+        "countryCode": "MH",
+        "gauge": 0,
+        "name": "Marshall Islands"
+    },
+    {
+        "countryCode": "MK",
+        "gauge": 0,
+        "name": "Macedonia"
+    },
+    {
+        "countryCode": "ML",
+        "gauge": 0,
+        "name": "Mali"
+    },
+    {
+        "countryCode": "MM",
+        "gauge": 0,
+        "name": "Myanmar [Burma]"
+    },
+    {
+        "countryCode": "MN",
+        "gauge": 0,
+        "name": "Mongolia"
+    },
+    {
+        "countryCode": "MO",
+        "gauge": 0,
+        "name": "Macao"
+    },
+    {
+        "countryCode": "MP",
+        "gauge": 0,
+        "name": "Northern Mariana Islands"
+    },
+    {
+        "countryCode": "MQ",
+        "gauge": 0,
+        "name": "Martinique"
+    },
+    {
+        "countryCode": "MR",
+        "gauge": 0,
+        "name": "Mauritania"
+    },
+    {
+        "countryCode": "MS",
+        "gauge": 0,
+        "name": "Montserrat"
+    },
+    {
+        "countryCode": "MT",
+        "gauge": 0,
+        "name": "Malta"
+    },
+    {
+        "countryCode": "MU",
+        "gauge": 0,
+        "name": "Mauritius"
+    },
+    {
+        "countryCode": "MV",
+        "gauge": 0,
+        "name": "Maldives"
+    },
+    {
+        "countryCode": "MW",
+        "gauge": 0,
+        "name": "Malawi"
+    },
+    {
+        "countryCode": "MX",
+        "gauge": 0,
+        "name": "Mexico"
+    },
+    {
+        "countryCode": "MY",
+        "gauge": 0,
+        "name": "Malaysia"
+    },
+    {
+        "countryCode": "MZ",
+        "gauge": 0,
+        "name": "Mozambique"
+    },
+    {
+        "countryCode": "NA",
+        "gauge": 0,
+        "name": "Namibia"
+    },
+    {
+        "countryCode": "NC",
+        "gauge": 0,
+        "name": "New Caledonia"
+    },
+    {
+        "countryCode": "NE",
+        "gauge": 0,
+        "name": "Niger"
+    },
+    {
+        "countryCode": "NF",
+        "gauge": 0,
+        "name": "Norfolk Island"
+    },
+    {
+        "countryCode": "NG",
+        "gauge": 0,
+        "name": "Nigeria"
+    },
+    {
+        "countryCode": "NI",
+        "gauge": 0,
+        "name": "Nicaragua"
+    },
+    {
+        "countryCode": "NL",
+        "gauge": 0,
+        "name": "Netherlands"
+    },
+    {
+        "countryCode": "NO",
+        "gauge": 0,
+        "name": "Norway"
+    },
+    {
+        "countryCode": "NP",
+        "gauge": 0,
+        "name": "Nepal"
+    },
+    {
+        "countryCode": "NR",
+        "gauge": 0,
+        "name": "Nauru"
+    },
+    {
+        "countryCode": "NU",
+        "gauge": 0,
+        "name": "Niue"
+    },
+    {
+        "countryCode": "NZ",
+        "gauge": 0,
+        "name": "New Zealand"
+    },
+    {
+        "countryCode": "OM",
+        "gauge": 0,
+        "name": "Oman"
+    },
+    {
+        "countryCode": "PA",
+        "gauge": 0,
+        "name": "Panama"
+    },
+    {
+        "countryCode": "PE",
+        "gauge": 0,
+        "name": "Peru"
+    },
+    {
+        "countryCode": "PF",
+        "gauge": 0,
+        "name": "French Polynesia"
+    },
+    {
+        "countryCode": "PG",
+        "gauge": 0,
+        "name": "Papua New Guinea"
+    },
+    {
+        "countryCode": "PH",
+        "gauge": 0,
+        "name": "Philippines"
+    },
+    {
+        "countryCode": "PK",
+        "gauge": 0,
+        "name": "Pakistan"
+    },
+    {
+        "countryCode": "PL",
+        "gauge": 0,
+        "name": "Poland"
+    },
+    {
+        "countryCode": "PM",
+        "gauge": 0,
+        "name": "Saint Pierre and Miquelon"
+    },
+    {
+        "countryCode": "PN",
+        "gauge": 0,
+        "name": "Pitcairn Islands"
+    },
+    {
+        "countryCode": "PR",
+        "gauge": 0,
+        "name": "Puerto Rico"
+    },
+    {
+        "countryCode": "PS",
+        "gauge": 0,
+        "name": "Palestine"
+    },
+    {
+        "countryCode": "PT",
+        "gauge": 0,
+        "name": "Portugal"
+    },
+    {
+        "countryCode": "PW",
+        "gauge": 0,
+        "name": "Palau"
+    },
+    {
+        "countryCode": "PY",
+        "gauge": 0,
+        "name": "Paraguay"
+    },
+    {
+        "countryCode": "QA",
+        "gauge": 0,
+        "name": "Qatar"
+    },
+    {
+        "countryCode": "RE",
+        "gauge": 0,
+        "name": "Réunion"
+    },
+    {
+        "countryCode": "RO",
+        "gauge": 0,
+        "name": "Romania"
+    },
+    {
+        "countryCode": "RS",
+        "gauge": 0,
+        "name": "Serbia"
+    },
+    {
+        "countryCode": "RU",
+        "gauge": 1520,
+        "name": "Russia"
+    },
+    {
+        "countryCode": "RW",
+        "gauge": 0,
+        "name": "Rwanda"
+    },
+    {
+        "countryCode": "SA",
+        "gauge": 0,
+        "name": "Saudi Arabia"
+    },
+    {
+        "countryCode": "SB",
+        "gauge": 0,
+        "name": "Solomon Islands"
+    },
+    {
+        "countryCode": "SC",
+        "gauge": 0,
+        "name": "Seychelles"
+    },
+    {
+        "countryCode": "SD",
+        "gauge": 0,
+        "name": "Sudan"
+    },
+    {
+        "countryCode": "SE",
+        "gauge": 0,
+        "name": "Sweden"
+    },
+    {
+        "countryCode": "SG",
+        "gauge": 0,
+        "name": "Singapore"
+    },
+    {
+        "countryCode": "SH",
+        "gauge": 0,
+        "name": "Saint Helena"
+    },
+    {
+        "countryCode": "SI",
+        "gauge": 0,
+        "name": "Slovenia"
+    },
+    {
+        "countryCode": "SJ",
+        "gauge": 0,
+        "name": "Svalbard and Jan Mayen"
+    },
+    {
+        "countryCode": "SK",
+        "gauge": 0,
+        "name": "Slovakia"
+    },
+    {
+        "countryCode": "SL",
+        "gauge": 0,
+        "name": "Sierra Leone"
+    },
+    {
+        "countryCode": "SM",
+        "gauge": 0,
+        "name": "San Marino"
+    },
+    {
+        "countryCode": "SN",
+        "gauge": 0,
+        "name": "Senegal"
+    },
+    {
+        "countryCode": "SO",
+        "gauge": 0,
+        "name": "Somalia"
+    },
+    {
+        "countryCode": "SR",
+        "gauge": 0,
+        "name": "Suriname"
+    },
+    {
+        "countryCode": "SS",
+        "gauge": 0,
+        "name": "South Sudan"
+    },
+    {
+        "countryCode": "ST",
+        "gauge": 0,
+        "name": "São Tomé and Príncipe"
+    },
+    {
+        "countryCode": "SV",
+        "gauge": 0,
+        "name": "El Salvador"
+    },
+    {
+        "countryCode": "SX",
+        "gauge": 0,
+        "name": "Sint Maarten"
+    },
+    {
+        "countryCode": "SY",
+        "gauge": 0,
+        "name": "Syria"
+    },
+    {
+        "countryCode": "SZ",
+        "gauge": 0,
+        "name": "Swaziland"
+    },
+    {
+        "countryCode": "TC",
+        "gauge": 0,
+        "name": "Turks and Caicos Islands"
+    },
+    {
+        "countryCode": "TD",
+        "gauge": 0,
+        "name": "Chad"
+    },
+    {
+        "countryCode": "TF",
+        "gauge": 0,
+        "name": "French Southern Territories"
+    },
+    {
+        "countryCode": "TG",
+        "gauge": 0,
+        "name": "Togo"
+    },
+    {
+        "countryCode": "TH",
+        "gauge": 0,
+        "name": "Thailand"
+    },
+    {
+        "countryCode": "TJ",
+        "gauge": 0,
+        "name": "Tajikistan"
+    },
+    {
+        "countryCode": "TK",
+        "gauge": 0,
+        "name": "Tokelau"
+    },
+    {
+        "countryCode": "TL",
+        "gauge": 0,
+        "name": "East Timor"
+    },
+    {
+        "countryCode": "TM",
+        "gauge": 0,
+        "name": "Turkmenistan"
+    },
+    {
+        "countryCode": "TN",
+        "gauge": 0,
+        "name": "Tunisia"
+    },
+    {
+        "countryCode": "TO",
+        "gauge": 0,
+        "name": "Tonga"
+    },
+    {
+        "countryCode": "TR",
+        "gauge": 0,
+        "name": "Turkey"
+    },
+    {
+        "countryCode": "TT",
+        "gauge": 0,
+        "name": "Trinidad and Tobago"
+    },
+    {
+        "countryCode": "TV",
+        "gauge": 0,
+        "name": "Tuvalu"
+    },
+    {
+        "countryCode": "TW",
+        "gauge": 0,
+        "name": "Taiwan"
+    },
+    {
+        "countryCode": "TZ",
+        "gauge": 0,
+        "name": "Tanzania"
+    },
+    {
+        "countryCode": "UA",
+        "gauge": 0,
+        "name": "Ukraine"
+    },
+    {
+        "countryCode": "UG",
+        "gauge": 0,
+        "name": "Uganda"
+    },
+    {
+        "countryCode": "UM",
+        "gauge": 0,
+        "name": "U.S. Minor Outlying Islands"
+    },
+    {
+        "countryCode": "US",
+        "gauge": 0,
+        "name": "United States"
+    },
+    {
+        "countryCode": "UY",
+        "gauge": 0,
+        "name": "Uruguay"
+    },
+    {
+        "countryCode": "UZ",
+        "gauge": 0,
+        "name": "Uzbekistan"
+    },
+    {
+        "countryCode": "VA",
+        "gauge": 0,
+        "name": "Vatican City"
+    },
+    {
+        "countryCode": "VC",
+        "gauge": 0,
+        "name": "Saint Vincent and the Grenadines"
+    },
+    {
+        "countryCode": "VE",
+        "gauge": 0,
+        "name": "Venezuela"
+    },
+    {
+        "countryCode": "VG",
+        "gauge": 0,
+        "name": "British Virgin Islands"
+    },
+    {
+        "countryCode": "VI",
+        "gauge": 0,
+        "name": "U.S. Virgin Islands"
+    },
+    {
+        "countryCode": "VN",
+        "gauge": 0,
+        "name": "Vietnam"
+    },
+    {
+        "countryCode": "VU",
+        "gauge": 0,
+        "name": "Vanuatu"
+    },
+    {
+        "countryCode": "WF",
+        "gauge": 0,
+        "name": "Wallis and Futuna"
+    },
+    {
+        "countryCode": "WS",
+        "gauge": 0,
+        "name": "Samoa"
+    },
+    {
+        "countryCode": "XK",
+        "gauge": 0,
+        "name": "Kosovo"
+    },
+    {
+        "countryCode": "YE",
+        "gauge": 0,
+        "name": "Yemen"
+    },
+    {
+        "countryCode": "YT",
+        "gauge": 0,
+        "name": "Mayotte"
+    },
+    {
+        "countryCode": "ZA",
+        "gauge": 0,
+        "name": "South Africa"
+    },
+    {
+        "countryCode": "ZM",
+        "gauge": 0,
+        "name": "Zambia"
+    },
+    {
+        "countryCode": "ZW",
+        "gauge": 0,
+        "name": "Zimbabwe"
+    }
+];
