@@ -296,7 +296,7 @@ const gaugeData = [
     },
     {
         "countryCode": "GN",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Guinea"
     },
     {
@@ -311,7 +311,7 @@ const gaugeData = [
     },
     {
         "countryCode": "GR",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Greece"
     },
     {
@@ -341,7 +341,7 @@ const gaugeData = [
     },
     {
         "countryCode": "HK",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Hong Kong"
     },
     {
@@ -356,7 +356,7 @@ const gaugeData = [
     },
     {
         "countryCode": "HR",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Croatia"
     },
     {
@@ -366,17 +366,17 @@ const gaugeData = [
     },
     {
         "countryCode": "HU",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Hungary"
     },
     {
         "countryCode": "ID",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "Indonesia"
     },
     {
         "countryCode": "IE",
-        "gauge": 0,
+        "gauge": 1600,
         "name": "Ireland"
     },
     {
