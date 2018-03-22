@@ -381,17 +381,17 @@ const gaugeData = [
     },
     {
         "countryCode": "IL",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Israel"
     },
     {
         "countryCode": "IM",
-        "gauge": 0,
+        "gauge": 914,
         "name": "Isle of Man"
     },
     {
         "countryCode": "IN",
-        "gauge": 0,
+        "gauge": 1676,
         "name": "India"
     },
     {
@@ -401,12 +401,12 @@ const gaugeData = [
     },
     {
         "countryCode": "IQ",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Iraq"
     },
     {
         "countryCode": "IR",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Iran"
     },
     {
@@ -416,7 +416,7 @@ const gaugeData = [
     },
     {
         "countryCode": "IT",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Italy"
     },
     {
@@ -431,12 +431,12 @@ const gaugeData = [
     },
     {
         "countryCode": "JO",
-        "gauge": 0,
+        "gauge": 1050,
         "name": "Jordan"
     },
     {
         "countryCode": "JP",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "Japan"
     },
     {
