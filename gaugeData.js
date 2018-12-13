@@ -441,18 +441,18 @@ const gaugeData = [
     },
     {
         "countryCode": "KE",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Kenya"
     },
     {
         "countryCode": "KG",
-        "gauge": 0,
+        "gauge": 1520,
         "name": "Kyrgyzstan"
     },
     {
         "countryCode": "KH",
         "gauge": 0,
-        "name": "Cambodia"
+        "name": "1000"
     },
     {
         "countryCode": "KI",
@@ -471,12 +471,12 @@ const gaugeData = [
     },
     {
         "countryCode": "KP",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "North Korea"
     },
     {
         "countryCode": "KR",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "South Korea"
     },
     {
@@ -491,7 +491,7 @@ const gaugeData = [
     },
     {
         "countryCode": "KZ",
-        "gauge": 0,
+        "gauge": 1520,
         "name": "Kazakhstan"
     },
     {
@@ -511,17 +511,17 @@ const gaugeData = [
     },
     {
         "countryCode": "LI",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Liechtenstein"
     },
     {
         "countryCode": "LK",
-        "gauge": 0,
+        "gauge": 1676,
         "name": "Sri Lanka"
     },
     {
         "countryCode": "LR",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Liberia"
     },
     {
