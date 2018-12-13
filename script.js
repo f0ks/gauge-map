@@ -62,9 +62,7 @@ $(function () {
 
 
 @TODO
- - colours same as pic
- - pic hilight on hover
-
+ - higlight countries when hover on pic
  - put result to codepen or something
  */
 
