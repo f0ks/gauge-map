@@ -8,16 +8,18 @@ $(function () {
     }
 
     const colorData = {
-        "1676": "#a6522d",
-        "1668": "#424fd6",
-        "1600": "#9164bc",
-        "1524": "#7faf25",
-        "1520": "#079011",
-        "1435": "#81ba73",
-        "1067": "#ffaf14",
-        "1000": "#fdff52",
-        "950": "#ffbeba",
-        "760": "#ff82cb",
+        "1676": "#bbdf94",
+        "1668": "#83dc76",
+        "1600": "#83dc76",
+        "1524": "#305c31",
+        "1520": "#305c31",
+        "1435": "#568dd0",
+        "1372": "#3e3d97",
+        "1067": "#6a51b7",
+        "1000": "#c55e8d",
+        "914": "#e1392f",
+        "762": "#ff82cb",
+        "600": "#e5c4a1",
     };
 
     $('#world-map-gdp').vectorMap({
@@ -30,9 +32,19 @@ $(function () {
             }]
         },
         onRegionTipShow: function (e, el, code) {
-            el.html(`${el.html()} (Gauge: ${gaugeForMap[code]} mm.)`);
+            el.html(`${el.html()} (${gaugeForMap[code]} mm.)`);
         }
     });
 });
+
+/*
+
+
+@TODO
+ - colours same as pic
+ - pic hilight on hover
+
+ - put result to codepen or something
+ */
 
 

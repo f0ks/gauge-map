@@ -41,7 +41,7 @@ const gaugeData = [
     },
     {
         "countryCode": "BA",
-        "gauge": 760,
+        "gauge": 762,
         "name": "Bosnia and Herzegovina"
     },
     {
@@ -201,7 +201,7 @@ const gaugeData = [
     },
     {
         "countryCode": "ER",
-        "gauge": 950,
+        "gauge": 0,
         "name": "Eritrea"
     },
     {
