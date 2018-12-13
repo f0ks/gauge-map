@@ -436,7 +436,7 @@ const gaugeData = [
     },
     {
         "countryCode": "JP",
-        "gauge": 1067,
+        "gauge": 1435,
         "name": "Japan"
     },
     {
