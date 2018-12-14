@@ -526,22 +526,22 @@ const gaugeData = [
     },
     {
         "countryCode": "LS",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "Lesotho"
     },
     {
         "countryCode": "LT",
-        "gauge": 0,
+        "gauge": 1520,
         "name": "Lithuania"
     },
     {
         "countryCode": "LU",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Luxembourg"
     },
     {
         "countryCode": "LV",
-        "gauge": 0,
+        "gauge": 1520,
         "name": "Latvia"
     },
     {
@@ -551,22 +551,22 @@ const gaugeData = [
     },
     {
         "countryCode": "MA",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Morocco"
     },
     {
         "countryCode": "MC",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Monaco"
     },
     {
         "countryCode": "MD",
-        "gauge": 0,
+        "gauge": 1520,
         "name": "Moldova"
     },
     {
         "countryCode": "ME",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Montenegro"
     },
     {
@@ -576,7 +576,7 @@ const gaugeData = [
     },
     {
         "countryCode": "MG",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Madagascar"
     },
     {
@@ -586,22 +586,22 @@ const gaugeData = [
     },
     {
         "countryCode": "MK",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Macedonia"
     },
     {
         "countryCode": "ML",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Mali"
     },
     {
         "countryCode": "MM",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Myanmar [Burma]"
     },
     {
         "countryCode": "MN",
-        "gauge": 0,
+        "gauge": 1520,
         "name": "Mongolia"
     },
     {
@@ -621,12 +621,12 @@ const gaugeData = [
     },
     {
         "countryCode": "MR",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Mauritania"
     },
     {
         "countryCode": "MS",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Montserrat"
     },
     {
@@ -646,27 +646,27 @@ const gaugeData = [
     },
     {
         "countryCode": "MW",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "Malawi"
     },
     {
         "countryCode": "MX",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Mexico"
     },
     {
         "countryCode": "MY",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Malaysia"
     },
     {
         "countryCode": "MZ",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "Mozambique"
     },
     {
         "countryCode": "NA",
-        "gauge": 0,
+        "gauge": 600,
         "name": "Namibia"
     },
     {
@@ -686,7 +686,7 @@ const gaugeData = [
     },
     {
         "countryCode": "NG",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "Nigeria"
     },
     {
@@ -696,17 +696,17 @@ const gaugeData = [
     },
     {
         "countryCode": "NL",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Netherlands"
     },
     {
         "countryCode": "NO",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Norway"
     },
     {
         "countryCode": "NP",
-        "gauge": 0,
+        "gauge": 1676,
         "name": "Nepal"
     },
     {
@@ -721,22 +721,22 @@ const gaugeData = [
     },
     {
         "countryCode": "NZ",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "New Zealand"
     },
     {
         "countryCode": "OM",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Oman"
     },
     {
         "countryCode": "PA",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Panama"
     },
     {
         "countryCode": "PE",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Peru"
     },
     {
@@ -756,12 +756,12 @@ const gaugeData = [
     },
     {
         "countryCode": "PK",
-        "gauge": 0,
+        "gauge": 1676,
         "name": "Pakistan"
     },
     {
         "countryCode": "PL",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Poland"
     },
     {
@@ -786,7 +786,7 @@ const gaugeData = [
     },
     {
         "countryCode": "PT",
-        "gauge": 0,
+        "gauge": 1668,
         "name": "Portugal"
     },
     {
@@ -796,12 +796,12 @@ const gaugeData = [
     },
     {
         "countryCode": "PY",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Paraguay"
     },
     {
         "countryCode": "QA",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Qatar"
     },
     {
@@ -811,12 +811,12 @@ const gaugeData = [
     },
     {
         "countryCode": "RO",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Romania"
     },
     {
         "countryCode": "RS",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Serbia"
     },
     {
@@ -831,7 +831,7 @@ const gaugeData = [
     },
     {
         "countryCode": "SA",
-        "gauge": 0,
+        "gauge": 1050,
         "name": "Saudi Arabia"
     },
     {
@@ -846,7 +846,7 @@ const gaugeData = [
     },
     {
         "countryCode": "SD",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "Sudan"
     },
     {

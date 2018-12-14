@@ -24,7 +24,7 @@ $(function () {
   const svgObject = $('#gaugeSvg');
 
   const higlightOnPic = function (gauge) {
-    svgObject.contents().find('#gauge_' + gauge).css({'stroke': 'black', 'stroke-width': 5});
+    svgObject.contents().find('#gauge_' + gauge).css({'stroke': '#cc00ff', 'stroke-width': 8});
     svgObject.contents().find('#label_' + gauge).css({'font-weight': 'bold', 'text-decoration': 'underline'});
 
   };
