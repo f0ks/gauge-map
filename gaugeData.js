@@ -851,7 +851,7 @@ const gaugeData = [
     },
     {
         "countryCode": "SE",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Sweden"
     },
     {
@@ -867,7 +867,7 @@ const gaugeData = [
     {
         "countryCode": "SI",
         "gauge": 0,
-        "name": "Slovenia"
+        "name": "1435"
     },
     {
         "countryCode": "SJ",
@@ -876,7 +876,7 @@ const gaugeData = [
     },
     {
         "countryCode": "SK",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Slovakia"
     },
     {
@@ -891,7 +891,7 @@ const gaugeData = [
     },
     {
         "countryCode": "SN",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Senegal"
     },
     {
@@ -901,12 +901,12 @@ const gaugeData = [
     },
     {
         "countryCode": "SR",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Suriname"
     },
     {
         "countryCode": "SS",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "South Sudan"
     },
     {
@@ -926,12 +926,12 @@ const gaugeData = [
     },
     {
         "countryCode": "SY",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Syria"
     },
     {
         "countryCode": "SZ",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "Swaziland"
     },
     {
@@ -951,17 +951,17 @@ const gaugeData = [
     },
     {
         "countryCode": "TG",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Togo"
     },
     {
         "countryCode": "TH",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Thailand"
     },
     {
         "countryCode": "TJ",
-        "gauge": 0,
+        "gauge": 1520,
         "name": "Tajikistan"
     },
     {
@@ -976,12 +976,12 @@ const gaugeData = [
     },
     {
         "countryCode": "TM",
-        "gauge": 0,
+        "gauge": 1520,
         "name": "Turkmenistan"
     },
     {
         "countryCode": "TN",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Tunisia"
     },
     {
