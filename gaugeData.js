@@ -991,7 +991,7 @@ const gaugeData = [
     },
     {
         "countryCode": "TR",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Turkey"
     },
     {
@@ -1006,22 +1006,22 @@ const gaugeData = [
     },
     {
         "countryCode": "TW",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "Taiwan"
     },
     {
         "countryCode": "TZ",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Tanzania"
     },
     {
         "countryCode": "UA",
-        "gauge": 0,
+        "gauge": 1520,
         "name": "Ukraine"
     },
     {
         "countryCode": "UG",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Uganda"
     },
     {
@@ -1031,17 +1031,17 @@ const gaugeData = [
     },
     {
         "countryCode": "US",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "United States"
     },
     {
         "countryCode": "UY",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Uruguay"
     },
     {
         "countryCode": "UZ",
-        "gauge": 0,
+        "gauge": 1520,
         "name": "Uzbekistan"
     },
     {
@@ -1056,7 +1056,7 @@ const gaugeData = [
     },
     {
         "countryCode": "VE",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Venezuela"
     },
     {
@@ -1071,7 +1071,7 @@ const gaugeData = [
     },
     {
         "countryCode": "VN",
-        "gauge": 0,
+        "gauge": 1000,
         "name": "Vietnam"
     },
     {
@@ -1091,7 +1091,7 @@ const gaugeData = [
     },
     {
         "countryCode": "XK",
-        "gauge": 0,
+        "gauge": 1435,
         "name": "Kosovo"
     },
     {
@@ -1106,17 +1106,17 @@ const gaugeData = [
     },
     {
         "countryCode": "ZA",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "South Africa"
     },
     {
         "countryCode": "ZM",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "Zambia"
     },
     {
         "countryCode": "ZW",
-        "gauge": 0,
+        "gauge": 1067,
         "name": "Zimbabwe"
     }
 ];
